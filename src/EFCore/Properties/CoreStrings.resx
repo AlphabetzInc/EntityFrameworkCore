@@ -829,4 +829,8 @@
   <data name="ClashingNonOwnedEntityType" xml:space="preserve">
     <value>The type '{entityType}' cannot be marked as owned because a non-owned entity type with the same name already exists.</value>
   </data>
+  <data name="LogExecutionStrategyRetrying" xml:space="preserve">
+    <value>A transient exception has been encountered during execution and the operation will be retried after {delay}ms.{newline}{error}</value>
+    <comment>Information CoreEventId.ExecutionStrategyRetrying int string Exception</comment>
+  </data>
 </root>
