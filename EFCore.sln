@@ -83,6 +83,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.targets = Directory.Build.targets
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Attributes", "src\EFCore.Attributes\EFCore.Attributes.csproj", "{11B51A41-47CB-4EDB-9D8A-17095A65034A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -311,6 +313,14 @@ Global
 		{9511216F-EC10-480D-AA8D-F72312C96962}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9511216F-EC10-480D-AA8D-F72312C96962}.ReleaseNoBenchmarks|Any CPU.ActiveCfg = Release|Any CPU
 		{9511216F-EC10-480D-AA8D-F72312C96962}.ReleaseNoBenchmarks|Any CPU.Build.0 = Release|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.DebugNoBenchmarks|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.DebugNoBenchmarks|Any CPU.Build.0 = Debug|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.ReleaseNoBenchmarks|Any CPU.ActiveCfg = Release|Any CPU
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A}.ReleaseNoBenchmarks|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -345,6 +355,7 @@ Global
 		{8B289879-9CF1-4EFD-AD4B-781AEA94BDBE} = {8C6EFBE5-F0FB-48D1-B138-A651BB95C957}
 		{EA847C1D-EC25-442B-A940-460969577CD5} = {C41FD56B-38CD-40E3-89E6-071A6C58E36C}
 		{9511216F-EC10-480D-AA8D-F72312C96962} = {EA847C1D-EC25-442B-A940-460969577CD5}
+		{11B51A41-47CB-4EDB-9D8A-17095A65034A} = {CE6B50B2-34AE-44C9-940A-4E48C3E1B3BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {285A5EB4-BCF4-40EB-B9E1-DF6DBCB5E705}
